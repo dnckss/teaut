@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴 | Tea°ut 티읕</title>
+    <meta name="description" content="티읕의 차, 디카페인, 시그니처, 차라떼, 시원한·따뜻한 차음료, 커피 전체 메뉴. 전메뉴 100% 수제, 1인 1잔.">
+    <link rel="icon" type="image/jpeg" href="assets/티읕.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sub.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Top Utility Bar -->
+    <div class="utility-bar">
+        <div class="container">
+            <ul class="utility-nav">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">마이페이지</a></li>
+                <li><a href="#">기프트</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#" class="utility-store">매장찾기</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <img src="assets/티읕.jpg" alt="Tea°ut 티읕">
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="menu.html" class="active">메뉴</a></li>
+                    <li><a href="premium.html">프리미엄 다도</a></li>
+                    <li><a href="teasert.html">티저트</a></li>
+                    <li><a href="story.html">티읕 스토리</a></li>
+                    <li><a href="index.html#store">매장</a></li>
+                    <li><a href="index.html#news">새소식</a></li>
+                </ul>
+            </nav>
+            <button class="search-btn" aria-label="검색">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.35-4.35"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <p class="page-eyebrow">MENU</p>
+            <h1 class="page-title">티읕 메뉴</h1>
+            <p class="page-subtitle">전메뉴 100% 수제 · 1인 1잔 · 원산지: 중국</p>
+            <p class="page-desc">"하루 한 잔, 건강한 습관."<br>티읕이 정성껏 내린 차 한 잔을 만나보세요.</p>
+        </div>
+    </section>
+
+    <!-- Category Tab Nav -->
+    <nav class="cat-nav">
+        <div class="container">
+            <ul>
+                <li><a href="#tea" class="cat-link" data-cat="tea">차</a></li>
+                <li><a href="#decaf" class="cat-link" data-cat="decaf">디카페인</a></li>
+                <li><a href="#signature" class="cat-link" data-cat="signature">시그니처</a></li>
+                <li><a href="#latte" class="cat-link" data-cat="latte">차라떼</a></li>
+                <li><a href="#cold" class="cat-link" data-cat="cold">시원한 차음료</a></li>
+                <li><a href="#warm" class="cat-link" data-cat="warm">따뜻한 차음료</a></li>
+                <li><a href="#coffee" class="cat-link" data-cat="coffee">커피</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 차 (Tea) -->
+    <section class="menu-cat" id="tea">
+        <div class="container">
+            <div class="cat-header">
+                <p class="cat-eyebrow">TEA</p>
+                <h2 class="cat-title">차</h2>
+                <p class="cat-desc">엄선된 찻잎으로 정성껏 우려낸 티읕의 시그니처 차</p>
+            </div>
+
+            <div class="item-grid">
+                <article class="item-card" data-item="boicha">
+                    <div class="item-visual gradient-puer">
+                        <span class="item-letter">茶</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>보이차</h3>
+                        <p class="item-note">소화 · 위장 보호 · 흙향</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 5,500원</span>
+                            <span class="price"><em>ICE</em> 5,900원</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="item-card" data-item="boisaeng">
+                    <div class="item-visual gradient-raw-puer">
+                        <span class="item-letter">生</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>보이생차</h3>
+                        <p class="item-note">녹차 느낌의 · 발효x</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 8,500원</span>
+                            <span class="price"><em>ICE</em> 8,900원</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="item-card" data-item="socheonggam">
+                    <div class="item-visual gradient-citrus">
+                        <span class="item-letter">柑</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>소청감</h3>
+                        <p class="item-note">진피 · 감싸는 귤향</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 8,500원</span>
+                            <span class="price"><em>ICE</em> 8,900원</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="item-card" data-item="apocha">
+                    <div class="item-visual gradient-fresh">
+                        <span class="item-letter">芽</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>아포차</h3>
+                        <p class="item-note">보이차 새순 · 산미 · 산뜻한</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 7,600원</span>
+                            <span class="price"><em>ICE</em> 8,000원</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="item-card" data-item="hongcha">
+                    <div class="item-visual gradient-black">
+                        <span class="item-letter">紅</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>홍차</h3>
+                        <p class="item-note">카페인 · 은은한 단향</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 5,500원</span>
+                            <span class="price"><em>ICE</em> 5,900원</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="item-card" data-item="oolong">
+                    <div class="item-visual gradient-oolong">
+                        <span class="item-letter">烏</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>우롱차</h3>
+                        <p class="item-note">청차 · 다이어트 · 향긋한</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 7,500원</span>
+                            <span class="price"><em>ICE</em> 7,900원</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="item-card" data-item="jasmine">
+                    <div class="item-visual gradient-jasmine">
+                        <span class="item-letter">茉</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>자스민</h3>
+                        <p class="item-note">백차 · 향기로운 · 고급스러운</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 7,500원</span>
+                            <span class="price"><em>ICE</em> 7,900원</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="item-card" data-item="nobaek">
+                    <div class="item-visual gradient-aged">
+                        <span class="item-letter">白</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>노백차</h3>
+                        <p class="item-note">항염 · 오래된 · 깊은</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 8,500원</span>
+                            <span class="price"><em>ICE</em> 8,900원</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="item-card" data-item="boiseolguk">
+                    <div class="item-visual gradient-blend">
+                        <span class="item-letter">雪</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>보이설국</h3>
+                        <p class="item-note">블렌딩 · 중국 · 일상</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 8,500원</span>
+                            <span class="price"><em>ICE</em> 8,900원</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="item-card" data-item="gyehwa-hongcha">
+                    <div class="item-visual gradient-osmanthus-black">
+                        <span class="item-letter">桂</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>계화홍차</h3>
+                        <p class="item-note">꽃향 · 홍차의 단향</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 7,500원</span>
+                            <span class="price"><em>ICE</em> 7,900원</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 디카페인 -->
+    <section class="menu-cat alt" id="decaf">
+        <div class="container">
+            <div class="cat-header">
+                <p class="cat-eyebrow">DECAF</p>
+                <h2 class="cat-title">디카페인</h2>
+                <p class="cat-desc">카페인 없이 깊은 풍미와 향을 즐기는, 부담 없는 한 잔</p>
+            </div>
+
+            <div class="item-grid">
+                <article class="item-card" data-item="seolguk">
+                    <div class="item-visual gradient-chrys">
+                        <span class="item-tag">DECAF</span>
+                        <span class="item-letter">菊</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>설국차</h3>
+                        <p class="item-note">수면 · 고지혈증 · 국화</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 6,600원</span>
+                            <span class="price"><em>ICE</em> 7,000원</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="item-card" data-item="gyehwa">
+                    <div class="item-visual gradient-osmanthus">
+                        <span class="item-tag">DECAF</span>
+                        <span class="item-letter">桂</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>계화차</h3>
+                        <p class="item-note">금목서 · 꽃잎 · 기관지</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 7,600원</span>
+                            <span class="price"><em>ICE</em> 8,000원</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="item-card" data-item="hoji">
+                    <div class="item-visual gradient-hoji">
+                        <span class="item-tag">DECAF</span>
+                        <span class="item-letter">焙</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>호지차</h3>
+                        <p class="item-note">탈취 · 피부미용 · 구수한</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 5,500원</span>
+                            <span class="price"><em>ICE</em> 5,900원</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 시그니처 -->
+    <section class="menu-cat" id="signature">
+        <div class="container">
+            <div class="cat-header">
+                <p class="cat-eyebrow">SIGNATURE</p>
+                <h2 class="cat-title">시그니처</h2>
+                <p class="cat-desc">오직 티읕에서만 만날 수 있는 시그니처 한 잔</p>
+            </div>
+
+            <div class="item-grid">
+                <article class="item-card featured" data-item="dalbora">
+                    <div class="item-visual gradient-signature">
+                        <span class="item-tag tag-signature">SIGNATURE</span>
+                        <span class="item-letter">花</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>달.보.라 <span class="flower">🌸</span></h3>
+                        <p class="item-note">달콤한 보이차 라떼</p>
+                        <p class="item-extra">+500원 옵션: 복숭아청 · 딸기청 추가 가능</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 6,400원</span>
+                            <span class="price"><em>ICE</em> 6,900원</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 차라떼 -->
+    <section class="menu-cat alt" id="latte">
+        <div class="container">
+            <div class="cat-header">
+                <p class="cat-eyebrow">TEA LATTE</p>
+                <h2 class="cat-title">차라떼 <span class="cat-sub">(밀크티)</span></h2>
+                <p class="cat-desc">차의 풍미와 부드러운 우유가 만나, 달콤하게 완성된 한 잔</p>
+            </div>
+
+            <div class="item-grid">
+                <article class="item-card featured" data-item="tea-latte">
+                    <div class="item-visual gradient-milk">
+                        <span class="item-letter">奶</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>차로 만든 달콤한 라떼</h3>
+                        <p class="item-note">아포 · 홍차 · 계화 · 설국 · 호지 중 선택</p>
+                        <p class="item-extra">계화/설국/호지는 디카페인 · 생강·딸기청 +500원</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 7,500원</span>
+                            <span class="price"><em>ICE</em> 7,900원</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 시원한 차음료 -->
+    <section class="menu-cat" id="cold">
+        <div class="container">
+            <div class="cat-header">
+                <p class="cat-eyebrow">COLD TEA DRINK</p>
+                <h2 class="cat-title">시원한 차음료</h2>
+                <p class="cat-desc">상쾌하고 청량한 차 베이스의 여름 음료</p>
+            </div>
+
+            <div class="item-grid">
+                <article class="item-card" data-item="tea-ade">
+                    <div class="item-visual gradient-ade">
+                        <span class="item-tag tag-ice">ICE ONLY</span>
+                        <span class="item-letter">氷</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>차로 만든 에이드</h3>
+                        <p class="item-note">아포 · 계화 · 설국 중 선택</p>
+                        <p class="item-extra">계화/설국은 디카페인</p>
+                        <div class="price-row">
+                            <span class="price"><em>ICE</em> 7,800원</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="item-card" data-item="real-icetea">
+                    <div class="item-visual gradient-icetea">
+                        <span class="item-tag tag-ice">ICE ONLY</span>
+                        <span class="item-letter">紅</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>진짜 홍차 아이스티</h3>
+                        <p class="item-note">진짜 홍차 잎만을 사용해 잡은 건강함과 고급스러움</p>
+                        <div class="price-row">
+                            <span class="price"><em>ICE</em> 7,000원</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 따뜻한 차음료 -->
+    <section class="menu-cat alt" id="warm">
+        <div class="container">
+            <div class="cat-header">
+                <p class="cat-eyebrow">WARM TEA DRINK</p>
+                <h2 class="cat-title">따뜻한 차음료</h2>
+                <p class="cat-desc">속까지 따뜻하게 데워주는 정성스러운 한 잔</p>
+            </div>
+
+            <div class="item-grid">
+                <article class="item-card soldout" data-item="lemontea">
+                    <div class="item-visual gradient-lemon">
+                        <span class="item-tag tag-soldout">SOLD OUT</span>
+                        <span class="item-letter">柠</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>계화 레몬티</h3>
+                        <p class="item-note">레몬티로 상큼하게!</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 7,000원</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="item-card" data-item="ginger-hoji">
+                    <div class="item-visual gradient-ginger">
+                        <span class="item-letter">薑</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>생강 호지차</h3>
+                        <p class="item-note">몸에 좋은 생강과 호지의 구수함</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 7,000원</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 커피 -->
+    <section class="menu-cat" id="coffee">
+        <div class="container">
+            <div class="cat-header">
+                <p class="cat-eyebrow">COFFEE</p>
+                <h2 class="cat-title">커피</h2>
+                <p class="cat-desc">티읕에서 직접 로스팅한 원두로 내린 한 잔</p>
+            </div>
+
+            <div class="item-grid">
+                <article class="item-card" data-item="teaut-brewed">
+                    <div class="item-visual gradient-coffee">
+                        <span class="item-letter">咖</span>
+                    </div>
+                    <div class="item-body">
+                        <h3>티읕 브루드 커피</h3>
+                        <p class="item-note">풍부한 아로마와 산뜻한 산미의 조화로움</p>
+                        <div class="price-row">
+                            <span class="price"><em>HOT</em> 7,000원</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="menu-cta-section">
+        <div class="container">
+            <div class="cta-grid">
+                <a href="premium.html" class="cta-card">
+                    <p class="cta-eyebrow">PREMIUM</p>
+                    <h3>프리미엄 다도</h3>
+                    <p>여요세트 다기와 함께하는 프리미엄 차 한 잔</p>
+                    <span class="cta-arrow">→</span>
+                </a>
+                <a href="teasert.html" class="cta-card">
+                    <p class="cta-eyebrow">TEASERT</p>
+                    <h3>티저트</h3>
+                    <p>차로 만들어낸 세상 어디에도 없는 티읕만의 디저트</p>
+                    <span class="cta-arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Item Detail Modal -->
+    <div class="modal" id="itemModal" aria-hidden="true">
+        <div class="modal-backdrop" data-close></div>
+        <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" data-close aria-label="닫기">×</button>
+            <div class="modal-body">
+                <div class="modal-visual" id="modalVisual">
+                    <span class="modal-letter" id="modalLetter">茶</span>
+                </div>
+                <div class="modal-content">
+                    <p class="modal-eyebrow" id="modalCat">TEA</p>
+                    <h2 id="modalTitle">메뉴 이름</h2>
+                    <p class="modal-note" id="modalNote">테이스팅 노트</p>
+                    <div class="modal-section">
+                        <h4>설명</h4>
+                        <p id="modalDesc">상세 설명</p>
+                    </div>
+                    <div class="modal-section" id="modalExtraWrap" hidden>
+                        <h4>옵션</h4>
+                        <p id="modalExtra"></p>
+                    </div>
+                    <div class="modal-prices" id="modalPrices"></div>
+                    <p class="modal-foot">전메뉴 100% 수제 · 1인 1잔 · 원산지: 중국</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="assets/티읕.jpg" alt="Tea°ut">
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>티읕</h4>
+                        <ul>
+                            <li><a href="story.html">브랜드 스토리</a></li>
+                            <li><a href="#">채용 정보</a></li>
+                            <li><a href="#">제휴 문의</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>메뉴</h4>
+                        <ul>
+                            <li><a href="menu.html">전체 메뉴</a></li>
+                            <li><a href="premium.html">프리미엄 다도</a></li>
+                            <li><a href="teasert.html">티저트</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>약관 및 정책</h4>
+                        <ul>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+                            <li><a href="#">위치기반서비스 이용약관</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Tea°ut. All rights reserved.</p>
+                <p class="footer-info">서울특별시 종로구 세종대로 175 · 대표: 김티읕 · 사업자등록번호: 000-00-00000</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
