@@ -1,0 +1,35 @@
+/* =========================================
+   Next.js 마이그레이션 오버라이드
+   (원본 디자인은 src/styles/style.css + sub.css 에 그대로 보존)
+   - 스캐폴드 기본 globals(다크모드/Arial 등)는 제거: 원본 디자인을 그대로 쓴다.
+   ========================================= */
+
+/* 앵커 점프 시 sticky 헤더에 가리지 않도록 보정 */
+html {
+  scroll-padding-top: calc(var(--header-h) + 16px);
+}
+
+/* 제품 사진(next/image fill)이 들어가는 비주얼 컨테이너 */
+.item-visual,
+.modal-visual,
+.teassert-visual,
+.menu-img {
+  position: relative;
+  overflow: hidden;
+}
+.item-visual img,
+.modal-visual img,
+.teassert-visual img,
+.menu-img img {
+  object-fit: cover;
+}
+
+/* 푸터 로고: logo.jpg는 '흰 배경 위 검정 라인아트'(불투명)라
+   원본의 brightness(0) invert(1) 필터로는 이미지 전체가 흰 사각형이 되어 로고가 안 보였음.
+   → invert(1)로 로고를 흰색으로 만들고, mix-blend-mode: screen 으로 흰 배경을
+   어두운 푸터(#1f1f1f)에 녹여 '흰 로고만' 보이도록 한다. */
+.footer-logo img {
+  filter: invert(1);
+  mix-blend-mode: screen;
+  opacity: 0.85;
+}
