@@ -42,7 +42,7 @@ export default function TeassertPage() {
                 src="/teassert/cake.png"
                 alt="티읕 시그니처 보이 티라미수 홀케이크"
                 fill
-                sizes="(max-width: 768px) 1vw, 600px"
+                sizes="(max-width: 768px) 100vw, 600px"
                 style={{ objectFit: "contain" }}
                 priority
               />
